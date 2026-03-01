@@ -14,8 +14,12 @@ public class verificadorIdade {
         int ano_Atual = java.time.Year.now().getValue();
         int idade = ano_Atual - ano_Nascimento;
             
-        System.out.println("esta é a sua idade: " + idade);
-            
         entrada.close();
+
+        if (idade >=18) {
+            System.out.println("Bem Vindo!");
+        } else {
+            System.out.println("Você precisa ser maior de 18 anos para acessar este conteúdo, no momento você possui: " + idade + " anos." );
+        }
     }
 }
