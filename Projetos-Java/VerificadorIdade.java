@@ -17,7 +17,7 @@ public class verificadorIdade {
         entrada.close();
 
         if (idade >=18) {
-            System.out.println("Bem Vindo!");
+            System.out.println("Seja bem Vindo!");
         } else {
             System.out.println("Você precisa ser maior de 18 anos para acessar este conteúdo, no momento você possui: " + idade + " anos." );
         }
