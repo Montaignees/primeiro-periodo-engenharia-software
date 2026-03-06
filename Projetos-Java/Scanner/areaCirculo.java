@@ -7,12 +7,8 @@ public class areaCirculo {
         System.out.println("Digite o raio do circulo aqui: ");
         double raio = n1.nextDouble();
 
-        System.out.println("o perimetro do seu circulo é igual a: " + (raio * 3.14));
+        System.out.println("a área do seu circulo é igual a: " + (raio * 3.14));
 
         n1.close();
-
-
     }
-
-
 }
