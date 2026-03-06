@@ -10,14 +10,11 @@ public class consumoEnergia {
         System.out.println("digite a quantidade de horas que o aparelho fica ligado: ");
         double horas = n1.nextDouble();
 
-        System.out.println("o consumo em kWh do aparelho è de: " + ((watts * horas)/1000 ));
+        double consumo = (watts * horas)/1000;
+
+        System.out.println("o consumo em kWh do aparelho è de: " + consumo);
 
         n1.close();
-
-
-
-
-
-
     }
 }
+
