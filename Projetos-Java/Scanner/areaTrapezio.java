@@ -13,8 +13,12 @@ public class areaTrapezio {
         System.out.println("digite o valor da altura do trapézio:");
         double altura = n1.nextDouble();
 
-        System.out.println("a área do trapézio é igual a: " + ((baseMaior + baseMenor) * altura/2));
+        double area = baseMaior + baseMenor * altura/2;
+
+        System.out.println("a área do trapézio é igual a: " + area );
 
         n1.close();
     }
 }
+
+
