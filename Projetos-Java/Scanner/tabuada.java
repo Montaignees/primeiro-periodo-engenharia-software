@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculadora {
+public class tabuada {
 
     public static void main(String[] args) {
 
@@ -19,3 +19,4 @@ public class calculadora {
         entrada.close();
     }
 }
+
